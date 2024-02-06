@@ -1,0 +1,83 @@
+main{
+    display:flex;
+    justify-content: space-between;
+}
+main img{
+    width:60%;
+    height:100%;
+}
+
+main h2{
+    font-family: logo_font;
+    color:rgb(0, 0, 49);
+    margin-bottom: 15px;
+}
+
+main p{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin-bottom: 20px;
+    border-bottom: 0.75px dotted rgb(0,0,49);
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right:100px;
+    width:75%;
+}
+
+input, textarea{
+    background:linear-gradient(to right, rgba(190, 110, 182, 0.5), rgba(31, 31, 101, 0.5));
+    outline:none;
+    border:none;
+    padding:5px;
+    border-radius: 2.5px;
+    width:100%;
+    margin-bottom: 15px;
+}
+
+textarea{
+    height:100px;
+    color:White;
+}
+label{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+#form{
+    margin: 0px 50px;
+}
+#form button{
+    outline:none;
+    border:none;
+    padding:5px 15px ;
+    margin:5px;
+    border-radius: 5px;
+    background:linear-gradient(to right, rgb(82, 55, 79), rgb(11, 11, 43));
+    color:white;
+    cursor: pointer;
+}
+
+#consent{
+ margin-top: 25px;
+}
+
+#book_img{
+overflow-y: hidden;
+}
+
+
+@media(max-width:800px){
+    #book_img{
+        display:none;
+    }
+
+    #form{
+        margin-top:45px;
+    }
+
+    #error{
+        margin-top:30px;
+    }
+}
+
