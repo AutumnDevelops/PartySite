@@ -10,7 +10,7 @@ const Header = () => {
         <div className = "content">
             <h1>The Balloon Gallery</h1>
                     <h2>Party Planning & Coordinating</h2>
-                    <Link to = "/contact"><button id = "book_button">Book now</button></Link>
+                    <Link to = "/PartySite/contact"><button id = "book_button">Book now</button></Link>
 
         </div>
     </header>

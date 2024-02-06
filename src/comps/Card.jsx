@@ -41,7 +41,7 @@ const Card = () => {
       <div className="label_card">
         <div style={{ backgroundImage: `url(${require(`./card_img/${card.labelbg}`)})`, backgroundPosition: "contain", backgroundRepeat: "no-repeat", backgroundSize: "100%", height:"100%", width: "100%"}}>
           <h3 id="b">{card.label}</h3>
-          <Link to = "/contact"><button className="card_button">Book Now!</button></Link>
+          <Link to = "/PartySite/contact"><button className="card_button">Book Now!</button></Link>
         </div>
       </div>
     </div>
