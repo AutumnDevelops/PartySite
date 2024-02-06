@@ -20,8 +20,8 @@ const Nav = () => {
       <div id="list">
         <ul className={isActive ? "active" : ""}>
           <li><Link to="/PartySite">Our Services</Link></li>
-          <li><Link to="/Contact">Connect</Link></li>
-          <li><a href="http://autumnfrontend.io/">View Portfolio</a></li>
+          <li><Link to="/PartySite/Contact">Connect</Link></li>
+          <li><a href="https://autumnfrontend.io/">View Portfolio</a></li>
         </ul>
       </div>
     </nav>
