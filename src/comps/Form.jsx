@@ -54,14 +54,14 @@ const Form = () => {
                             <input type = "text"  id = "email" name = "email" placeholder="Example@email.com" maxlength="200" value={email} onChange={(e) => setEmail(e.target.value)}/>
 
                         <label htmlFor ="subject">*Subject</label>
-                            <input type = "text" id = "subject" name = "subject" placeholder="Subject" maxlength="100" onChange={(e) => setSubject(e.target.value)}/>
+                            <input type = "text" id = "subject" name = "subject" placeholder="Subject" maxlength="100" value = {subject} onChange={(e) => setSubject(e.target.value)}/>
 
                         <label htmlFor ="message">Message</label>
                             <textarea  type = "text" id = "message" name ="message" placeholder="Your message" maxlength="500"/>
 
                         <label htmlFor ="consent">**I consent to having this website my submitted information so they can respond to my inquiry.<br /> 
                             <a href = "private.html">Privacy Policy</a></label>
-                            <input type="checkbox" value = "checkboxValue" id="check_consent" />
+                            <input type="checkbox" value = {checkbox} id="check_consent" onChange={(e) => setCheckbox(e.target.value)} />
 
                         <input type = "button"  id = "submit" value = "Submit" onClick={handleSubmit} />
                     </form>
