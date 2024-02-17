@@ -1,5 +1,5 @@
 
-import "./styles/media.css";
+
 import "./styles/main.css";
 import "./styles/book.css";
 
